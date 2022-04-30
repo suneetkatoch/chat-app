@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/istockphoto-1297852801-170667a.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.container
+{
+    position:absolute;
+    top: 18%;
+    left:5% ;
+    
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.container h1{
+    font-family: 'Patrick Hand', cursive;
+
+    font-size: 40px;
+    border-bottom: 5px solid rgb(255,20,147);
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 6px;
+    width: 100%;
+    border-bottom: 1px solid rgb(255,20,147);
+    
+    align-items: center;
+
+}
+.box input{
+
+    display: flex;
+    
+    
+    width: 80%;
+    border: none;
+    margin: 10px 25px;
+    outline: none;
+    
+    font-size: 20px;
+    background: none;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 3px solid rgb(255,20,147); 
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.btn:hover{
+    opacity: 0.5;
+    
+}
+/* chat app */
+.containerchat{
+    width: auto;
+    
+    margin: 2rem;
+}
+.chatapp{
+    max-width: 350px;
+    max-height: 500px;
+    margin: 2px;
+    padding: 1px;
+    
+}   
+#sendcontainer input{
+    
+    width:auto ;
+}

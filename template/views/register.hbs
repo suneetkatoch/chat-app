@@ -1,0 +1,74 @@
+<!-- //font awsome -->
+<!-- ppexels.com and unsplash -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4064f5d50b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>SK Chat App Register</title>
+</head>
+
+<body>
+    <header class="header">
+	<h1 class="logo"><a href="">Welcome <span class="auto-input"></span></a></h1>
+    
+</header>
+    <div class="container">
+        <h1>Register to SK Chat App</h1>
+        <form action="/register" method="POST">
+            <div class="box">
+                <i class="fa fa-user"></i>
+                <input type="text" name="name" id="name" placeholder="enter your name">
+            </div>
+            <div class="box">
+                <i class="fa fa-calendar"></i>
+                <input type="number" name="age" id="age" placeholder="enter your age">
+            </div>
+            <div class="box">
+                <i class="fa fa-phone"></i>
+                <input type="number" name="phone" id="phn" placeholder="enter your ph number">
+            </div>
+
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+            </div>
+
+            <div class="box">
+                <i class="fa fa-key"></i>
+                <input type="password" name="password" id="password" placeholder="enter your password">
+
+            </div>
+            <input type="submit" class="btn" value="register">
+
+        </form>
+    </div>
+
+
+    <div class="regis">
+        <h2>All ready have an account?</h2>
+        <a href="/" class="active"><button class="btn">Login</button></a>
+    </div>
+    {{>footer}}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed=new Typed(".auto-input",{
+            strings:["  To SK Chat App"],
+            typeSpeed:110,
+            backSpeed:true,
+            loop:true,
+        })
+    </script>
+
+</body>
+
+</html>
