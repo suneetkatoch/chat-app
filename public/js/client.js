@@ -1,4 +1,4 @@
-const socket=io('http://localhost:1000')
+const socket=io('http://localhost:10000')
 
 
 const form=document.getElementById('sendcontainer')
