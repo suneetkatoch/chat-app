@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000')
+const socket=io('ws://krishilsocial-socket.onrender.com:8900')
 
 
 const form=document.getElementById('sendcontainer')
