@@ -3,7 +3,7 @@ const bcrypt=require("bcryptjs");
 const jwt=require("jsonwebtoken");
 const res = require("express/lib/response");
 
-const userschema=new mongoose.Schema({
+const userschema=new ongoose.Schema({
     name:{
         type:String,
         required:true,
