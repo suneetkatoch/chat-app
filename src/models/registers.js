@@ -9,16 +9,16 @@ const userschema=new mongoose.Schema({
     //     required:true,
         
     // },
-    age:{
-        type:Number,
-        required:true,
+    // age:{
+    //     type:Number,
+    //     required:true,
        
-    },
-    phone:{
-        type:Number,
-        required:true,
-        unique:true,
-    },
+    // },
+    // phone:{
+    //     type:Number,
+    //     required:true,
+    //     unique:true,
+    // },
     email:{
         type:String,
         required:true,
