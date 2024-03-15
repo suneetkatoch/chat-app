@@ -9,7 +9,6 @@ errsole.initialize({
   evalExpression: true
 });
 // End of Errsole code snippet
-
 require("dotenv").config();
 const express = require("express");
 const path = require("path");
@@ -17,6 +16,7 @@ const hbs = require("hbs");
 const app = express();
 const bcrypt = require("bcryptjs");
 const cookieParser=require("cookie-parser");
+
 
 
 const auth=require("./middleware/auth");
