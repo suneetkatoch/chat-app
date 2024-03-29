@@ -1,7 +1,7 @@
 const jwt=require("jsonwebtoken");
 const usercol=require("../models/registers");
 
-const auth=async (req,res)=>{
+const auth=async (req,res,next)=>{
     try {
         const token=req.cookies.jwt;
         const verify=jwt.verify(token,"mynameissuneetkatochandiamfrompalampurkangrahimachal");
